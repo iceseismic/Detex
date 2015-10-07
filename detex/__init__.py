@@ -19,6 +19,10 @@ createSubSpace=subspace.createSubSpace
 
 detResults=results.detResults
 
+exceptit = 'Derrick made a mistake here, he continously makes mistakes'
+
+raise Exception (exceptit)
+
 ## Configure logger to be used across all of Detex
 def setLogger(makeLog=True,filename='detex_log.log'):
     """
